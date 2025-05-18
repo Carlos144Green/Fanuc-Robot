@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: fanuc_lrmate200ic_support
+    relative_path: urdf/lrmate200ic.xacro
+    xacro_args: ""
+  SRDF:
+    relative_path: config/fanuc_lrmate200ic.srdf
+  CONFIG:
+    author_name: i3d
+    author_email: 1@gmail.com
+    generated_timestamp: 1742787683
