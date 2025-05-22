@@ -44,9 +44,6 @@
       plugins.
     </deprecated>
     <moveit_core plugin="${prefix}/lrmate200ic_kinematics/fanuc_lrmate200ic_manipulator_moveit_ikfast_plugin_description.xml"/>
-    <moveit_core plugin="${prefix}/lrmate200ic5f_kinematics/fanuc_lrmate200ic5f_manipulator_moveit_ikfast_plugin_description.xml"/>
-    <moveit_core plugin="${prefix}/lrmate200ic5h_kinematics/fanuc_lrmate200ic5h_manipulator_moveit_ikfast_plugin_description.xml"/>
-    <moveit_core plugin="${prefix}/lrmate200ic5l_kinematics/fanuc_lrmate200ic5l_manipulator_moveit_ikfast_plugin_description.xml"/>
     <rosindex>
       <tags>
         <tag>moveit</tag>

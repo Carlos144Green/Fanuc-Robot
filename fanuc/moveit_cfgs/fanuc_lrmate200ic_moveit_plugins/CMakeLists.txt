@@ -27,8 +27,5 @@ catkin_package(
 )
 
 add_subdirectory(lrmate200ic_kinematics)
-add_subdirectory(lrmate200ic5f_kinematics)
-add_subdirectory(lrmate200ic5h_kinematics)
-add_subdirectory(lrmate200ic5l_kinematics)
 
 install(FILES readme.md DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION})

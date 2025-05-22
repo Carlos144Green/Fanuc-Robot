@@ -21,48 +21,6 @@
         <joint name="joint_5" value="0" />
         <joint name="joint_6" value="0" />
     </group_state>
-    <group_state name="Compact" group="manipulator">
-        <joint name="joint_1" value="0" />
-        <joint name="joint_2" value="-1.0471" />
-        <joint name="joint_3" value="-1.0435" />
-        <joint name="joint_4" value="0" />
-        <joint name="joint_5" value="0.0347" />
-        <joint name="joint_6" value="0" />
-    </group_state>
-    <group_state name="Stretch" group="manipulator">
-        <joint name="joint_1" value="0" />
-        <joint name="joint_2" value="1.0549" />
-        <joint name="joint_3" value="0.463" />
-        <joint name="joint_4" value="0" />
-        <joint name="joint_5" value="1.2843" />
-        <joint name="joint_6" value="0" />
-    </group_state>
-    <group_state name="Home" group="manipulator">
-        <joint name="joint_1" value="0" />
-        <joint name="joint_2" value="0" />
-        <joint name="joint_3" value="0" />
-        <joint name="joint_4" value="0" />
-        <joint name="joint_5" value="-1.57" />
-        <joint name="joint_6" value="0" />
-    </group_state>
-    <group_state name="Camera_Pose_1" group="manipulator">
-        <joint name="joint_1" value="0" />
-        <joint name="joint_2" value="0.2618" />
-        <joint name="joint_3" value="0.611" />
-        <joint name="joint_4" value="0" />
-        <joint name="joint_5" value="-0.3489" />
-        <joint name="joint_6" value="0.0349" />
-    </group_state>
-    <group_state name="Camera_Pose_2" group="manipulator">
-        <joint name="joint_1" value="0" />
-        <joint name="joint_2" value="-0.2617" />
-        <joint name="joint_3" value="0.349" />
-        <joint name="joint_4" value="0" />
-        <joint name="joint_5" value="-0.52" />
-        <joint name="joint_6" value="0.0349" />
-    </group_state>
-    <!--END EFFECTOR: Purpose: Represent information about an end effector.-->
-    <end_effector name="Prototype_1" parent_link="tool0" group="manipulator" />
     <!--VIRTUAL JOINT: Purpose: this element defines a virtual joint between a robot link and an external frame of reference (considered fixed with respect to the robot)-->
     <virtual_joint name="FixedBase" type="fixed" parent_frame="world" child_link="base_link" />
     <!--DISABLE COLLISIONS: By default it is assumed that any link of the robot could potentially come into collision with any other link in the robot. This tag disables collision checking between a specified pair of links. -->
